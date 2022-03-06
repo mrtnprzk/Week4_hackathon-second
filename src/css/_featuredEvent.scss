@@ -1,0 +1,53 @@
+.featured-event {
+  height: 50vh;
+  display: flex;
+  background-color: #35838d;
+  padding: 2rem;
+  justify-content: space-around;
+  margin: 4rem 0rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: thin;
+
+  &__image {
+    height: 100;
+    border-radius: 1rem;
+    max-width: 30rem;
+    height: auto;
+  }
+
+  &__info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__info__date {
+    padding: 0;
+    margin: 0.3rem 0 1.5rem;
+  }
+
+  &__button {
+    display: block;
+    height: 7vh;
+    width: 10%;
+    align-self: flex-end;
+
+    background: #960f16;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  &__button:hover {
+    background: #d64d55;
+    text-decoration: none;
+  }
+
+  h2 {
+    color: #960f16;
+  }
+}

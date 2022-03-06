@@ -1,0 +1,18 @@
+@import "header.scss";
+
+@import "form.scss";
+
+@import "featuredEvent.scss";
+
+@import "events.scss";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  width: 85%;
+  margin: auto;
+}
